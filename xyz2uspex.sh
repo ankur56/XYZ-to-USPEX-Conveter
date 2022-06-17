@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+#Requirements: Openbabel
 #Usage: ./xyz2uspex.sh filename.xyz
 #Author: Ankur Gupta, Lawrence Berkeley National Laboratory, 2022
 
