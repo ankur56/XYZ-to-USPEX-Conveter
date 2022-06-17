@@ -19,4 +19,6 @@ nl=$(cat ${filename}_uspex.txt | wc -l)
 
 sed -i -r -e "1s/^/MOL: ${filename}\nNumber of atoms: ${nl}\n/g" ${filename}_uspex.txt 
 
-
+rm ${filename}.fh
+rm ${filename}_zmat.txt
+rm ${filename}_temp.xyz
